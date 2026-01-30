@@ -18,51 +18,9 @@ This repository provides a lightweight Python implementation to generate ALK cel
 
 	- Faraday efficiency correlation with optional temperature-dependent coefficient interpolation
 
-- **Utility functions**
+	- Thermal model
 
-	- Computation of LHV efficiency vs load (based on electrical power and H₂ production rate)
 
-- **Example plotting script**
-
-	- Efficiency vs load across a temperature sweep (color-mapped by temperature)
-
-## Repository structure (typical)
-
-- alk_cell_model.py (or equivalent module containing the classes and example script)
-
-- Optional: examples/ and docs/ (if added later)
-
-## Requirements
-
-- Python 3.x
-
-- numpy
-
-- matplotlib (only required to run the plotting example)
-
-## Quick start (typical usage)
-
-- Instantiate the cell (ElectroCellALK)
-
-- Set operating parameters (e.g., rT, pressure_bar, koh_mass_frac, geometry)
-
-- Call build_curves() to populate arrays such as:
-
-- arCurrentDensity (A/cm²)
-
-- arV_cell (V)
-
-- arE_min (V, reversible component)
-
-- arR_cell (effective resistance terms)
-
-- Optionally evaluate Faraday efficiency with faraday_efficiency(J)
-
-## Notes
-
-- The implementation is cell-level and intended for parametric studies, system integration, and control-oriented performance maps.
-
-- Default parameters are “representative values” as indicated in the code; for design-grade studies, parameters should be replaced with stack-specific data and validated against experiments or vendor curves.
 
 ## Design updates and contributions
 
