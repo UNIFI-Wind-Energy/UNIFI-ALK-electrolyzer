@@ -4,6 +4,16 @@ This repository provides a lightweight Python implementation to generate ALK cel
 
 ---
 
+## Citation
+
+If the model is used in scientific work, please cite:
+
+Francesco Superchi, Francesco Papi, Andrea Mannelli, Francesco Balduzzi, Francesco Maria Ferro, Alessandro Bianchini,
+"Development of a reliable simulation framework for techno-economic analyses on green hydrogen production from wind farms using alkaline electrolyzers"  
+Renewable Energy,Volume 207,2023,Pages 731-742,ISSN 0960-1481,https://doi.org/10.1016/j.renene.2023.03.077.
+
+---
+
 ## What is included
 
 - **Physics-based ALK cell model (ElectroCellALK)**
@@ -29,14 +39,5 @@ Design updates are welcome via Pull Requests or by contacting the authors. When 
 - document new correlations and assumptions in code comments (with DOI/reference),
 
 - include a minimal test or example that reproduces expected trends.
-
-## Citation
-
-If this model is used in research or publications, please cite the associated technical report or software record (to be added). If no report is available yet, consider citing the repository itself (release tag and commit hash) and the primary sources referenced in the code comments.
-
-
-## Author contacts 
-- Alessandro Bianchini: 	alessandro.bianchini@unifi.it
-- Francesco Superchi: 	francesco.superchi@unifi.it
 
 
