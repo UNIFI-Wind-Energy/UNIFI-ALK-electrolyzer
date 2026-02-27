@@ -3,7 +3,7 @@
 
 MIT License
 
-Copyright (c) 2026 UNIFI Wind Energy
+Copyright (c) 2026 Università degli Studi di Firenze
 
 Created: 2026-01-30
 
